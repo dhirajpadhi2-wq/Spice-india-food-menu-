@@ -137,6 +137,15 @@ background:#000;
 margin-top:20px;
 }
 
+  /* SCROLLBAR DESIGN */
+::-webkit-scrollbar{
+height:6px;
+}
+::-webkit-scrollbar-thumb{
+background:#ff9900;
+border-radius:10px;
+}
+  
 </style>
 
 </head>
@@ -144,6 +153,10 @@ margin-top:20px;
 <body>
 
 <header>
+<h1>Spice India</h1>
+<p>Delicious Food | Jajpur</p>
+</header>
+
   <div class="navbar">
 <a href="#kabab">Kabab</a>
 <a href="#roti">Roti</a>
@@ -156,14 +169,11 @@ margin-top:20px;
 <a href="#soup">Soup</a>
 <a href="#starters">Starters</a>
   </div>
-<h1>Spice India</h1>
-<p>Delicious Food | Jajpur</p>
-</header>
   
 <section>
 
 <!-- KABAB -->
-<div class="category">
+<div class="category" id="kabab">
 <h2>🔥 Kabab</h2>
 <div class="item"><span>Chicken Tikka (6 Pcs)</span><span>₹140</span></div>
 <div class="item"><span>Tandoori Chicken (1 Pc)</span><span>₹120</span></div>
@@ -171,7 +181,7 @@ margin-top:20px;
 </div>
 
 <!-- ROTI -->
-<div class="category">
+<div class="category" id="roti">
 <h2>🥖 Roti</h2>
 <div class="item"><span>Tandoori Roti</span><span>₹10</span></div>
 <div class="item"><span>Butter Roti</span><span>₹15</span></div>
@@ -183,7 +193,7 @@ margin-top:20px;
 </div>
 
 <!-- VEG CURRY -->
-<div class="category">
+<div class="category" id="veg">
 <h2>🥗 Veg Curry</h2>
 <div class="item"><span>Mix Veg Curry</span><span>₹110</span></div>
 <div class="item"><span>Kadhai Veg</span><span>₹130</span></div>
@@ -196,7 +206,7 @@ margin-top:20px;
 </div>
 
 <!-- NON VEG CURRY -->
-<div class="category">
+<div class="category" id="nonveg">
 <h2>🍗 Non-Veg Curry</h2>
 <div class="item"><span>Kadhai Chicken</span><span>₹130</span></div>
 <div class="item"><span>Chicken Fry</span><span>₹140</span></div>
@@ -212,7 +222,7 @@ margin-top:20px;
 </div>
 
 <!-- BIRYANI -->
-<div class="category">
+<div class="category" id="biryani">
 <h2>🍛 Biryani</h2>
 <div class="item"><span>Veg Biryani</span><span>₹110</span></div>
 <div class="item"><span>Chicken Dum Biryani</span><span>₹120</span></div>
@@ -222,7 +232,7 @@ margin-top:20px;
 </div>
 
 <!-- NOODLES -->
-<div class="category">
+<div class="category" id="noodles">
 <h2>🍜 Noodles</h2>
 <div class="item"><span>Chicken Noodles</span><span>₹60</span></div>
 <div class="item"><span>Egg Noodles</span><span>₹50</span></div>
@@ -230,7 +240,7 @@ margin-top:20px;
 </div>
 
 <!-- ROLLS -->
-<div class="category">
+<div class="category" id="rolls">
 <h2>🌯 Rolls</h2>
 <div class="item"><span>Chicken Roll</span><span>₹60</span></div>
 <div class="item"><span>Egg Roll</span><span>₹50</span></div>
@@ -239,7 +249,7 @@ margin-top:20px;
 </div>
 
 <!-- BEVERAGES -->
-<div class="category">
+<div class="category" id="beverages">
 <h2>🥤 Beverages</h2>
 <div class="item"><span>Punjabi Lassi</span><span>₹50</span></div>
 <div class="item"><span>Mocktail</span><span>₹50</span></div>
@@ -247,7 +257,7 @@ margin-top:20px;
 </div>
 
 <!-- SOUP -->
-<div class="category">
+<div class="category" id="soup">
 <h2>🍲 Soup</h2>
 <div class="item"><span>Chicken Hot & Sour</span><span>₹50</span></div>
 <div class="item"><span>Veg Hot & Sour</span><span>₹60</span></div>
@@ -256,7 +266,7 @@ margin-top:20px;
 </div>
 
 <!-- STARTERS -->
-<div class="category">
+<div class="category" id="starters">
 <h2>🔥 Starters</h2>
 <div class="item"><span>Veg Manchurian</span><span>₹90</span></div>
 <div class="item"><span>Chilly Paneer</span><span>₹130</span></div>
