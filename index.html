@@ -23,26 +23,20 @@ background:#111;
 color:white;
 }
 
-/* HEADER */
-
 header{
 text-align:center;
-padding:30px;
+padding:25px;
 background:#000;
 }
 
 header h1{
 color:#ff9900;
-font-size:35px;
+font-size:32px;
 }
-
-/* SECTION */
 
 section{
-padding:30px;
+padding:25px;
 }
-
-/* CATEGORY */
 
 .category{
 margin-top:30px;
@@ -51,18 +45,16 @@ margin-top:30px;
 .category h2{
 color:#ff9900;
 margin-bottom:10px;
+border-bottom:1px solid #333;
+padding-bottom:5px;
 }
-
-/* ITEMS */
 
 .item{
 display:flex;
 justify-content:space-between;
-padding:10px;
+padding:10px 0;
 border-bottom:1px solid #333;
 }
-
-/* BUTTON */
 
 .btn{
 display:block;
@@ -77,18 +69,11 @@ border-radius:8px;
 font-weight:bold;
 }
 
-/* MAP */
-
-.map{
-margin-top:30px;
-}
-
-/* FOOTER */
-
 footer{
 text-align:center;
 padding:20px;
 background:#000;
+margin-top:20px;
 }
 
 </style>
@@ -104,69 +89,123 @@ background:#000;
 
 <section>
 
-<!-- VEG -->
-
+<!-- KABAB -->
 <div class="category">
-<h2>Veg Items</h2>
+<h2>🔥 Kabab</h2>
+<div class="item"><span>Chicken Tikka (6 Pcs)</span><span>₹140</span></div>
+<div class="item"><span>Tandoori Chicken (1 Pc)</span><span>₹120</span></div>
+<div class="item"><span>Kalmi Kebab (2 Pcs)</span><span>₹120</span></div>
+</div>
 
+<!-- ROTI -->
+<div class="category">
+<h2>🥖 Roti</h2>
+<div class="item"><span>Tandoori Roti</span><span>₹10</span></div>
+<div class="item"><span>Butter Roti</span><span>₹15</span></div>
+<div class="item"><span>Plain Naan</span><span>₹20</span></div>
+<div class="item"><span>Butter Naan</span><span>₹25</span></div>
+<div class="item"><span>Garlic Naan</span><span>₹30</span></div>
+<div class="item"><span>Lacha Paratha</span><span>₹25</span></div>
+<div class="item"><span>Plain Paratha</span><span>₹20</span></div>
+</div>
+
+<!-- VEG CURRY -->
+<div class="category">
+<h2>🥗 Veg Curry</h2>
+<div class="item"><span>Mix Veg Curry</span><span>₹110</span></div>
+<div class="item"><span>Kadhai Veg</span><span>₹130</span></div>
+<div class="item"><span>Mushroom Masala</span><span>₹120</span></div>
+<div class="item"><span>Kadhai Mushroom</span><span>₹130</span></div>
+<div class="item"><span>Butter Mushroom</span><span>₹120</span></div>
+<div class="item"><span>Kadhai Paneer</span><span>₹130</span></div>
 <div class="item"><span>Paneer Butter Masala</span><span>₹120</span></div>
-<div class="item"><span>Mix Veg Curry</span><span>₹100</span></div>
-<div class="item"><span>Dal Fry</span><span>₹80</span></div>
-
+<div class="item"><span>Paneer Kolhapuri</span><span>₹130</span></div>
 </div>
 
-<!-- NON VEG -->
-
+<!-- NON VEG CURRY -->
 <div class="category">
-<h2>Non-Veg Items</h2>
-
-<div class="item"><span>Chicken Curry</span><span>₹150</span></div>
-<div class="item"><span>Chicken Biryani</span><span>₹130</span></div>
-<div class="item"><span>Egg Curry</span><span>₹90</span></div>
-
+<h2>🍗 Non-Veg Curry</h2>
+<div class="item"><span>Kadhai Chicken</span><span>₹130</span></div>
+<div class="item"><span>Chicken Fry</span><span>₹140</span></div>
+<div class="item"><span>Chicken Masala</span><span>₹120</span></div>
+<div class="item"><span>Chicken Kasha</span><span>₹240</span></div>
+<div class="item"><span>Butter Chicken ⭐</span><span>₹130</span></div>
+<div class="item"><span>Chicken Kolhapuri</span><span>₹130</span></div>
+<div class="item"><span>Chicken Mughlai</span><span>₹130</span></div>
+<div class="item"><span>Chicken Dopyaza</span><span>₹120</span></div>
+<div class="item"><span>Tandoori Masala</span><span>₹200</span></div>
+<div class="item"><span>Kalmi Masala (2 Pcs)</span><span>₹180</span></div>
+<div class="item"><span>Tikka Masala (6 Pcs)</span><span>₹200</span></div>
 </div>
 
-<!-- DRINKS -->
-
+<!-- BIRYANI -->
 <div class="category">
-<h2>Drinks</h2>
+<h2>🍛 Biryani</h2>
+<div class="item"><span>Veg Biryani</span><span>₹110</span></div>
+<div class="item"><span>Chicken Dum Biryani</span><span>₹120</span></div>
+<div class="item"><span>Chicken Dum Biryani (Egg)</span><span>₹130</span></div>
+<div class="item"><span>Leg Biryani (2 Pcs)</span><span>₹140</span></div>
+<div class="item"><span>Plain Biryani Rice</span><span>₹50</span></div>
+</div>
 
-<div class="item"><span>Cold Drink</span><span>₹30</span></div>
-<div class="item"><span>Lassi</span><span>₹40</span></div>
+<!-- NOODLES -->
+<div class="category">
+<h2>🍜 Noodles</h2>
+<div class="item"><span>Chicken Noodles</span><span>₹60</span></div>
+<div class="item"><span>Egg Noodles</span><span>₹50</span></div>
+<div class="item"><span>Veg Noodles</span><span>₹70</span></div>
+</div>
 
+<!-- ROLLS -->
+<div class="category">
+<h2>🌯 Rolls</h2>
+<div class="item"><span>Chicken Roll</span><span>₹60</span></div>
+<div class="item"><span>Egg Roll</span><span>₹50</span></div>
+<div class="item"><span>Mushroom Roll</span><span>₹70</span></div>
+<div class="item"><span>Paneer Roll</span><span>₹70</span></div>
+</div>
+
+<!-- BEVERAGES -->
+<div class="category">
+<h2>🥤 Beverages</h2>
+<div class="item"><span>Punjabi Lassi</span><span>₹50</span></div>
+<div class="item"><span>Mocktail</span><span>₹50</span></div>
+<div class="item"><span>Masala Thums Up</span><span>₹50</span></div>
+</div>
+
+<!-- SOUP -->
+<div class="category">
+<h2>🍲 Soup</h2>
+<div class="item"><span>Chicken Hot & Sour</span><span>₹50</span></div>
+<div class="item"><span>Veg Hot & Sour</span><span>₹60</span></div>
+<div class="item"><span>Chicken Manchow</span><span>₹50</span></div>
+<div class="item"><span>Veg Manchow</span><span>₹60</span></div>
+</div>
+
+<!-- STARTERS -->
+<div class="category">
+<h2>🔥 Starters</h2>
+<div class="item"><span>Veg Manchurian</span><span>₹130</span></div>
+<div class="item"><span>Chilly Paneer</span><span>₹130</span></div>
+<div class="item"><span>Paneer Manchurian</span><span>₹120</span></div>
+<div class="item"><span>Paneer 65</span><span>₹130</span></div>
+<div class="item"><span>Mushroom Chilly</span><span>₹130</span></div>
+<div class="item"><span>Mushroom Manchurian</span><span>₹120</span></div>
+<div class="item"><span>Mushroom 65</span><span>₹130</span></div>
+<div class="item"><span>Chicken Manchurian</span><span>₹120</span></div>
+<div class="item"><span>Chilly Chicken</span><span>₹120</span></div>
+<div class="item"><span>Chicken 65</span><span>₹130</span></div>
+<div class="item"><span>Garlic Chicken</span><span>₹60</span></div>
+<div class="item"><span>Chicken Pakoda</span><span>₹160</span></div>
 </div>
 
 </section>
-
-<!-- BUTTONS -->
 
 <a class="btn" href="https://wa.me/918658244665">Order on WhatsApp</a>
-
 <a class="btn" href="tel:8658244665">Call Now</a>
 
-<a class="btn" href="https://maps.app.goo.gl/g174dExfcdvWC1WG6" target="_blank">
-Open Location
-</a>
-
-<!-- MAP EMBED -->
-
-<section class="map">
-
-<h2 style="text-align:center;color:#ff9900;">Find Us</h2>
-
-<iframe 
-src="https://maps.google.com/maps?q=Jajpur%20Odisha&t=&z=15&ie=UTF8&iwloc=&output=embed"
-width="100%" 
-height="300" 
-style="border:0;border-radius:10px;">
-</iframe>
-
-</section>
-
 <footer>
-
 <p>© 2026 Spice India | All Rights Reserved</p>
-
 </footer>
 
 </body>
