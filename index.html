@@ -169,6 +169,18 @@ border-radius:10px;
 <a href="#soup">Soup</a>
 <a href="#starters">Starters</a>
   </div>
+
+<input type="text" id="search" placeholder="🔍 Search food..." 
+style="
+width:90%;
+margin:15px auto;
+display:block;
+padding:12px;
+border-radius:10px;
+border:none;
+outline:none;
+font-size:16px;
+">
   
 <section>
 
@@ -291,6 +303,38 @@ border-radius:10px;
 <footer>
 <p>© 2026 Spice India | All Rights Reserved</p>
 </footer>
+<script>
+document.getElementById("search").addEventListener("keyup", function(){
 
+let value=this.value.toLowerCase();
+let items=document.querySelectorAll(".item");
+
+items.forEach(function(item){
+if(item.innerText.toLowerCase().includes(value)){
+item.style.display="flex";
+}else{
+item.style.display="none";
+}
+});
+
+});
+  <a href="https://wa.me/918658244665" target="_blank" 
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:20px;
+text-decoration:none;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+">
+💬
+</a>
+  
+</script>
+  
 </body>
 </html>
